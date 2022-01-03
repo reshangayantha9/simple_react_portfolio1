@@ -4,9 +4,6 @@ import Contact from "./components/contact/contact";
 import Intro from "./components/intro/intro";
 import Productlist from "./components/productList/productList";
 
-
-
-
 function App() {
 
   return (
