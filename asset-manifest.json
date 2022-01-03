@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reshangayantha9/simple_react_portfolio1/static/css/main.43171b24.css",
+    "main.js": "/reshangayantha9/simple_react_portfolio1/static/js/main.89dadde7.js",
+    "static/media/man.png": "/reshangayantha9/simple_react_portfolio1/static/media/man.e7527c871cc395d08f76.png",
+    "static/media/codeMan.jpg": "/reshangayantha9/simple_react_portfolio1/static/media/codeMan.7a8f4ffc2b7e0feb442b.jpg",
+    "index.html": "/reshangayantha9/simple_react_portfolio1/index.html",
+    "main.43171b24.css.map": "/reshangayantha9/simple_react_portfolio1/static/css/main.43171b24.css.map",
+    "main.89dadde7.js.map": "/reshangayantha9/simple_react_portfolio1/static/js/main.89dadde7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43171b24.css",
+    "static/js/main.89dadde7.js"
+  ]
+}
