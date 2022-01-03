@@ -1,0 +1,102 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.cBg{
+    width: 20px;
+    height: 100%;
+    background-color: lightgreen;
+    position: absolute;
+}
+.cWrap{
+    padding: 50px;
+    display: flex;
+}
+.cLeft{
+    flex:1;
+}
+.cRight{
+    flex:2;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cTitle{
+    font-size: 60px;
+    width: 80%;
+}
+.cInforItem{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300px;
+    width: 70%;
+
+}
+.cIcon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.cDes{
+    font-weight: 200;
+}
+form{
+    margin-top: 20px;
+   
+}
+input{
+    width: 50%;
+    height: 50px;
+    border:none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+textarea{
+    width:100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+button{
+    border:none;
+    padding:15px;
+    background-color: lightgreen;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .cWrap{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .cTitle{
+font-size: 30px;
+    }
+    .cInforItem{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .cDes{
+        display: none;
+    }
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+    button{
+        margin-top: 10px;
+    }
+}

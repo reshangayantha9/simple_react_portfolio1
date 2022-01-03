@@ -1,0 +1,43 @@
+.p{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border:2px solid rgb(243,242,242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+.pBrowser{
+    height: 20px;
+    background-color:rgb(243,242,242); 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    z-index: 2;
+}
+.pCircle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 3px;
+}
+.pTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    transition: all 10s ease;
+    color: black;
+    cursor: pointer;
+}
+
+.p:hover .pTitle{
+    transform: translateY(-100%);
+}
+@media screen and (max-width:480px) {
+    .p{
+        width: 40%;
+        height: 20vh;
+    }
+}

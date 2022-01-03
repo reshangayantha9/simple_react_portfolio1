@@ -1,0 +1,96 @@
+.i{
+    display: flex;
+    height: 100vh;
+}
+.iLeft{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iRight{
+    flex:1;
+    position: relative;
+}
+.iLeftWrap{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.iLeftIntro{
+    font-size: 30px;
+    font-weight: 300;
+}
+.iLeftName{
+    font-size: 60px;
+
+}
+.iTitle{
+    height: 50px;
+    overflow: hidden;
+}
+.iTitleWrap{
+    height: 100%;
+    animation: move 8s ease-in-out infinite alternate;
+}
+@keyframes move{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+    }
+.iTitleItem{
+    height:50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightgreen;
+    display:flex;
+    align-items: center;
+}
+.i-scroll{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    
+    margin-left: 50px;
+}
+.iImg{
+    width: 100;
+    height:100%;
+    margin-left:200px;
+    object-fit: cover;
+    position: absolute;
+}
+.iBg{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media screen and (max-width:480px) {
+    .i{
+        flex-direction: column;
+    }
+    .iLeftWrap{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .iDesc{
+        display: none;
+    }
+
+}
